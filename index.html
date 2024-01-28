@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Yummy!</title>
+    <link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <main class="bg-black">
+        <!-- START OF LOADER SECTION-->
+        <div class="main-loader">
+            <div class="loader"></div>
+        </div>
+        <!-- END OF LOADER SECTION-->
+        <!-- START OF SIDE BAR -->
+        <section class="side-bar position-fixed top-0 bottom-0 d-flex min-vh-100 ">
+            <div
+                class="left text-white d-flex flex-column align-items-center justify-content-between py-5 px-2 bg-black">
+                <div class="links w-100">
+                    <ul class="text-capitalize list-unstyled fs-5 px-3" id="side-bar-links">
+                        <li>search</li>
+                        <li>categories</li>
+                        <li>area</li>
+                        <li>ingredients</li>
+                        <li>contact us</li>
+                    </ul>
+                </div>
+                <div class="left-footer px-3">
+                    <div class="icons mb-3">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <div class="caption">
+                        <p>Copyright &#169;<br /> All Rights Reserved.</p>
+                        <p>2023</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right d-flex flex-column align-items-center justify-content-between bg-white py-5 px-2">
+                <img src="imgs/logo.png" id="side-bar-img" alt="site logo" />
+                <div class="toggle-icon">
+                    <i class="fa-solid fa-2x fa-x close"></i>
+                    <i class="fa-solid fa-align-justify fa-2x open"></i>
+                </div>
+                <div class="right-icons fs-4">
+                    <i class="fa-solid fa-globe d-block"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                </div>
+            </div>
+        </section>
+        <!-- END   OF SIDE BAR -->
+        <!--START OF HOME SECTION-->
+        <section id="home" class="min-vh-100">
+            <div class="container p-4">
+                <div class="row" id="searchInputs"></div>
+            </div>
+            <div class="container p-4 position-relative">
+                <div class="second-loader">
+                    <div class="loader"></div>
+                </div>
+                <div class="row g-2" id="rowData">
+                    
+                </div>
+            </div>
+        </section>
+        <!--END   OF HOME SECTION-->
+        <!-- START OF MEAL DETAILS SECTION-->
+        <section id="mealDetails" class="bg-black">
+            <div class="container text-white">
+                <div class="row" id="mealDetailsData">
+                </div>
+            </div>
+        </section>
+        <!-- END   OF MEAL DETAILS SECTION-->
+    </main>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
